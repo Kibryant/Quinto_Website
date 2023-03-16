@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+:root 
+{
+    --font: 'Poppins', sans-serif;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font);
+}
+
+html, body
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: #0e0a0a;
+}
+body 
+{
+    background-image: linear-gradient(to bottom, #0e0a0a 20% , #fffcfc);
+}
+main
+{ 
+    
+    height: 100vh;
+    position: relative;
+
+}
+#celular 
+{
+    position: absolute;
+    height: 627px;
+    width: 311px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(imagens/frame-iphone.png) no-repeat;
+}
+#tela
+{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px;
+    height: 471px;
+}
+a 
+{
+    text-decoration: none;
+}
+#redes-sociais
+{
+    text-decoration: none;
+    text-align: right;
+}
+#redes-sociais img 
+{   
+
+    width: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #0e0a0a49;
+    box-sizing: border-box;
+
+}
+#redes-sociais img:hover
+{
+    
+    border: 2px solid #fffcfc;
+    transform: translate(-3px, -3px);
+    transition: .5s, border 1s;
+    box-shadow: 5px 5px 10px #0e0a0a;
+
+}
